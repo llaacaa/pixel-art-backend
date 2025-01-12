@@ -1,0 +1,71 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Debug and error files
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.un~
+.idea/
+*.iml
+
+# npm cache
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Nodemon process
+pids/
+*.pid
+*.pid.lock
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Docker files
+docker-compose.override.yml
+.dockerignore
+
+# Editor config
+*.sublime-*
+*.code-workspace
+
+# Ignore production logs
+*.out
+*.log
+
+# Other
+*.bak
+*.backup
+*.orig
+
+# Ignore local dependencies symlinks
+npm-link/
