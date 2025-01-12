@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "build": "npm install && npm run build",
+    "build": "npm install --save-dev @types/express @types/node && tsc",
     "start": "node …/dist/index.js"
   },
   "keywords": [],
