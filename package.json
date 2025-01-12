@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "build": "npm install --save-dev @types/express @types/node && tsc",
-    "start": "ts-node -r tsconfig-paths/register src/index.ts"
+    "build": "npm install && npm run build",
+    "start": "node …/dist/index.js"
   },
   "keywords": [],
   "author": "",
